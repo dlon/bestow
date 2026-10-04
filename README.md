@@ -1,7 +1,5 @@
 # bestow
 
-**Disclaimer**: Nearly all code was AI generated.
-
 A symlink farm manager, similar to GNU Stow. Works on Windows, macOS, and Linux.
 
 bestow helps you manage dotfiles and software packages by creating symlinks in a target directory that point back into a stow directory. This lets you keep your configuration files organized in one place while making them appear in the locations your tools expect.
@@ -13,8 +11,7 @@ GNU Stow is a popular tool for managing symlink farms, but it only runs on Unix-
 ## Install
 
 ```
-git clone https://github.com/dlon/bestow
-cd bestow; cargo install --path .
+cargo install --git https://github.com/dlon/bestow
 ```
 
 ## Usage
